@@ -1,0 +1,24 @@
+
+        .cart-container{
+            display: flex;
+            justify-content: center ;
+            justify-items: center;
+            margin-top: 10px;
+            padding-top: 10px;
+
+            #shopping-cart{
+                height: 30vw;
+                width: auto;
+            }
+            
+            .cardCounter{
+                border: 1px solid black;
+                height: 30px;
+                width: 30px;
+                z-index: 6;
+                text-align: center;
+
+            }
+        }
+
+
