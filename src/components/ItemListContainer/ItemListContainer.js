@@ -12,6 +12,8 @@ import { useParams } from 'react-router-dom'
 
     const { categoryId } = useParams()
     
+    let data = []
+
     useEffect(() => {
         setLoading(true)
         
@@ -20,8 +22,14 @@ import { useParams } from 'react-router-dom'
                 if (!categoryId) {
                     setProducts(response)
                 } else {
-                    response.map((product)=> product.thumbnail = `${product.thumbnail}`)    
-                    setProducts( response.filter((product) => product.category === categoryId)) 
+                    
+                    response.map((product) => { if(product.thumbnail.includes('../')){
+                        product.thumbnail = `${product.thumbnail}` 
+                    }else{
+                        product.thumbnail = `.${product.thumbnail}`
+                    }
+                })    
+                    setProducts(response.filter((product) => product.category === categoryId)) 
                     
                     console.log(response)
                 }
