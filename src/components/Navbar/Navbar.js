@@ -1,6 +1,7 @@
 import './Navbar.scss'
 import logo from './logo.webp'
 import { CartWidget} from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom'
 
 
 export const Navbar = () => {
@@ -8,39 +9,39 @@ export const Navbar = () => {
         <header className="header">
             <div className="header-container">
                 <div className="logo-cart-wrapper">
-                   
-                        {<img src={logo} alt="logo" className='header-logo'/>}
+                   <Link to='/'>
+                        {<img src={logo} alt="logo" className='header-logo'/>}       
+                   </Link>
+                        
                                 
-                        <CartWidget/>
+                    <CartWidget/>
                 
                 </div>
                 <nav className="navbar">
-                    <ul className="nav-link-list">
-                        <li>
-                            <a href="#" className="nav-link">Whiskies</a>
-                        </li>
-                        <li>
-                            <a href="#" className="nav-link">Vinos</a>
-                        </li>
-                        <li>
-                            <a href="#" className="nav-link">Cervezas</a>
-                        </li>
-                        <li>
-                            <a href="#" className="nav-link">Burbujas</a>
-                        </li>
-                        <li>
-                            <a href="#" className="nav-link">Licores</a>
-                        </li>
-                        <li>
-                            <a href="#" className="nav-link">Bebidas</a>
-                        </li>
-                        <li>
-                            <a href="#" className="nav-link">Comidas</a>
-                        </li>
-                        <li>
-                            <a href="#" className="nav-link">Varios</a>
-                        </li>
-                    </ul>
+                  
+                        <Link to='/productos/whiskies' className="nav-link">Whiskies</Link>
+                    
+                    
+                        <Link to='/productos/vinos' className="nav-link">Vinos</Link>
+                    
+                    
+                        <Link to='/productos/cervezas' className="nav-link">Cervezas</Link>
+                    
+                    
+                        <Link to='/productos/burbujas' className="nav-link">Burbujas</Link>
+                    
+                    
+                        <Link to='/productos/licores' className="nav-link">Licores</Link>
+                    
+                    
+                        <Link to='/productos/bebidas' className="nav-link">Bebidas</Link>
+                    
+                    
+                        <Link to='/productos/comidas' className="nav-link">Comidas</Link>
+                    
+                    
+                        <Link to='/productos/varios' className="nav-link">Varios</Link>
+                                        
                 </nav>
 
                

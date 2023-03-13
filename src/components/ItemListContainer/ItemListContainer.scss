@@ -1,5 +1,6 @@
-.greeting-container {
-    text-align: center;
+.container-box{
+    display: flex;
+    justify-content: space-around;
     margin:  auto;
     max-width: 100%;
     font-size: large;

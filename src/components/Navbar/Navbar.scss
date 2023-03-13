@@ -15,23 +15,18 @@
 
     .navbar{
         background-color: #4D331F;
-        .nav-link-list{
-            display: flex;
+        display: flex;
+        justify-content: space-evenly;
+        .nav-link{
             list-style: none;
-            justify-content: space-evenly;
-            li{
-                text-decoration: none;
-                  list-style: none;
-            .nav-link{
-                margin: 2.5rem;
-                font-size: medium;
-                color: #ffff;
-                font-weight: bold;
-                list-style: none;
-                text-decoration: none;
-            }
-            }
-
+            margin: 2.5rem;
+            font-size: medium;
+            color: #ffff;
+            font-weight: bold;
+            list-style: none;
+            text-decoration: none;
         }
+            
+
     }
 }

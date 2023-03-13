@@ -1,0 +1,134 @@
+[
+    {
+      "title": "Añejo Patrón",
+      "description": "Tequila 100% Agave, Hecho en México",
+      "volumeOrWeight": "750 ml",
+      "price": 6800,
+      "thumbnail": "./imgs/products/anejopatron.jpg",
+      "stock": 25,
+      "category": "licores",
+      "code": "d6670385-cb8c-4a4a-91e8-ff0da7678707",
+      "id": 1
+    },
+    {
+      "title": "Bombay Shapphire",
+      "description": "London Dry Gin, Alc.40%",
+      "volumeOrWeight": "700ml",
+      "price": 4800,
+      "thumbnail": "./imgs/products/bombay-saphire.webp",
+      "stock": 25,
+      "category": "licores",
+      "code": "b64dfcf0-5bde-44c6-b9ae-39b0907e175f",
+      "id": 2
+    },
+    {
+      "title": "Chimay Bleu",
+      "description": "Peres Trappistes, hecho en Bélgica, Alc. 9%",
+      "volumeOrWeight": "300ml",
+      "price": 2400,
+      "thumbnail": "./imgs/products/Chimay bleu.jpg",
+      "stock": 25,
+      "category": "cervezas",
+      "code": "8f4dd5dd-622e-4d35-a427-0af1c197a3dd",
+      "id": 3
+    },
+    {
+      "title": "Cerveza Ciney",
+      "description": "Cerveza Belga Blonde, Alc.10%",
+      "volumeOrWeight": "330ml",
+      "price": 2420,
+      "thumbnail": "./imgs/products/ciney-blonde.jpg",
+      "stock": 25,
+      "category": "cervezas",
+      "code": "25e3a932-9e76-4d47-8f4c-fdf0476c00e8",
+      "id": 4
+    },
+    {
+      "title": "Lindemans Kriek Cherry",
+      "description": "Cerveza Lambic, sabor cereza, Hecha en Bélgica",
+      "volumeOrWeight": "355ml",
+      "price": 2600,
+      "thumbnail": "./imgs/products/Lindemans_Kriek_BottleGlass_website_2022-1.png",
+      "stock": 25,
+      "category": "cervezas",
+      "code": "0ac1a140-73f9-428b-ab09-a437967e6609",
+      "id": 5
+    },
+    {
+      "title": "Delirium Tremens Blonde",
+      "description": "Cerveza Rubia, Hecha en Bélgica, Alc. 8,5%",
+      "volumeOrWeight": "330ml",
+      "price": 2400,
+      "thumbnail": "./imgs/products/delirium-tremens-blonde.jpg",
+      "stock": 25,
+      "category": "cervezas",
+      "code": "2e42c58f-c2ba-4853-abe0-ff65cf305769",
+      "id": 6
+    },
+    {
+      "title": "El Profeta",
+      "description": "Ginebra, Industria Argentina, Alc. 40%",
+      "volumeOrWeight": "750 ml",
+      "price": 2400,
+      "thumbnail": "./imgs/products/ginebra-el-profeta-750-ml.jpg",
+      "stock": 25,
+      "category": "licores",
+      "code": "6c89205a-66d6-4d58-a977-69b1033b759f",
+      "id": 7
+    },
+    {
+      "title": "Luca Old Vine Malbec",
+      "description": "Uco Valley ",
+      "volumeOrWeight": "750 ml",
+      "price": 3100,
+      "thumbnail": "./imgs/products/luca-malbec.png",
+      "stock": 25,
+      "category": "vinos",
+      "code": "e440baed-11b2-4860-9de0-fb694f0b7877",
+      "id": 8
+    },
+    {
+      "title": "Zarapaca XO",
+      "description": "Gran Reserva Especial, Solera, Hecho en Guatamala",
+      "volumeOrWeight": "750 ml",
+      "price": 7800,
+      "thumbnail": "./imgs/products/ron-zaracapa-xo.webp",
+      "stock": 25,
+      "category": "licores",
+      "code": "a5f38ac4-a66a-4755-bcc9-085ecccbcd4f",
+      "id": 9
+    },
+    {
+      "title": "Rutini Malbec",
+      "description": "Mendoza, alc. 18% ",
+      "volumeOrWeight": "750 ml",
+      "price": 2790,
+      "thumbnail": "./imgs/products/rutini-malbec-2021.png",
+      "stock": 25,
+      "category": "vinos",
+      "code": "44b37b89-d330-4f5e-b142-f7cce93e136a",
+      "id": 10
+    },
+    {
+      "title": " Santa Teresa 1796",
+      "description": "Ron Venezolano Extra Añeejo, Alc.40%",
+      "volumeOrWeight": "750 ml",
+      "price": 7000,
+      "thumbnail": "./imgs/products/santa-teresa-1796.jpg",
+      "stock": 25,
+      "category": "licores",
+      "code": "df8d238b-0675-4d0a-b039-904007e9d4ea",
+      "id": 11
+    },
+    {
+      "title": "El Enemigo, Malbec",
+      "description": "Mendoza. Anio 2021",
+      "volumeOrWeight": "750 ml",
+      "price": 3560,
+      "thumbnail": "./imgs/products/vino-el-enemigo-malbec-botella-750ml-a582a8a18e.webp",
+      "stock": 25,
+      "category": "vinos",
+      "code": "d6208b38-2cd1-4c1e-be80-062b127cc2bb",
+      "id": 12
+    }
+  ]
