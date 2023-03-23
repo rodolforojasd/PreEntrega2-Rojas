@@ -14,7 +14,27 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
         setLoading(true)
+/* 
+        
+        conecto a la coleccion de elementos
+        const productosRef = coleection(db,"products",itemId)
+        
+        pedido asincronico
 
+        getDoc(productosRef)
+            .then((doc)=>{
+
+                
+                    console.log(docs)
+
+                    setItem({
+                        id:doc.id,
+                        
+                    })
+                })
+            
+            })
+        */
         getProductsById( Number(itemId) )
             .then((resp) => {
                 setItem(resp)
